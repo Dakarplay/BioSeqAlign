@@ -42,7 +42,7 @@ Input:
 
 Output:
 
-    - Longest Common Subsequence: AAAAAAAA
+    - Longest Common Subsequence: TAAGGGGGAAAAAAA
 
 ## Complexity Analysis
 The implemented LCS algorithm has a time complexity of O(m × n), where m and n are the lengths of the input sequences.
