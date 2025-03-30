@@ -6,8 +6,6 @@ BioSeqAlign is a Java-based tool for aligning DNA sequences using dynamic progra
 ## Features
 - Implements the Longest Common Subsequence (LCS) algorithm.
 - Efficient sequence alignment using dynamic programming.
-- Supports input from text files or user input.
-- Provides a visual representation of aligned sequences.
 
 ## Installation
 1. Clone this repository:
