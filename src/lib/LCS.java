@@ -43,7 +43,7 @@ public class LCS {
                 j--;
             }
         }
-
+        System.out.println("Longitud de la LCS: " + lcs.length());
         return lcs.reverse().toString();
     }
 }
