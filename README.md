@@ -1,35 +1,36 @@
-# BioSeqAlign - DNA Sequence Alignment in Java
+# 🧬 BioSeqAlign - DNA Sequence Alignment in Java
 
-## Overview
-BioSeqAlign is a Java-based tool for aligning DNA sequences using dynamic programming. It helps identify the longest common subsequence (LCS) between two DNA strands, highlighting similarities that may indicate functional or evolutionary relationships.
+## 📖 Overview
+BioSeqAlign is a Java-based tool for aligning DNA sequences using **Dynamic Programming**.  
+It identifies the **Longest Common Subsequence (LCS)** between two DNA strands, highlighting similarities that may indicate functional or evolutionary relationships.
 
-## Features
-- Implements the Longest Common Subsequence (LCS) algorithm.
-- Efficient sequence alignment using dynamic programming.
+---
 
-## Installation
+## ✨ Features
+- Implements the **Longest Common Subsequence (LCS)** algorithm.
+- Efficient sequence alignment using **dynamic programming**.
+- Clear console output with subsequence and length.
+
+---
+
+## ⚙️ Installation & Execution
+
 1. Clone this repository:
+   ```bash
+   git clone https://github.com/Dakarplay/BioSeqAlign.git
+   cd BioSeqAlign
 
-    git clone https://github.com/Dakarplay/BioSeqAlign.git
+2. Compile the project
 
-2. Navigate to the project:
+    javac -d bin src/lib/LCS.java src/App.java
 
-    cd BioSeqAlign
+3. Run the program:
 
-3. Compile the Java files:
+    java -cp bin App
 
-    javac src/*.java
-
-4. Run the program:
-
-    java -cp src Main
-
-## Usage
-1. Provide two DNA sequences as input.
-
-2. The program will compute the optimal alignment.
-
-3. The longest common subsequence (LCS) will be displayed as output.
+## 🖥️ Usage
+The input DNA sequences are defined in App.java.
+Modify the variables X and Y to test different alignments.
 
 ## Example
 
@@ -42,8 +43,13 @@ Output:
 
     - Longest Common Subsequence: TAAGGGGGAAAAAAA
 
-## Complexity Analysis
-(IN PROCESS)
+## 📊 Complexity Analysis
+
+    - Time Complexity: O(m * n)
+
+    - Space Complexity: O(m * n)
+
+Where m and n are the lengths of the input sequences.
 
 ## Author
 Developed by Dago Palmera
