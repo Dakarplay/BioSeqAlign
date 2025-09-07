@@ -42,7 +42,7 @@ Input:
 Output:
 
     - Longest Common Subsequence: TAAGGGGGAAAAAAA
-
+    - Length of the LCS: 15
 ## 📊 Complexity Analysis
 
     - Time Complexity: O(m * n)

@@ -7,7 +7,7 @@ public class App {
 
         String lcs = LCS.findLCS(X, Y);
 
-        System.out.println("La subsecuencia común más larga es: " + lcs);
-        System.out.println("Longitud de la LCS: " + lcs.length());
+        System.out.println("The longest common subsequence is: " + lcs);
+        System.out.println("Length of the LCS:: " + lcs.length());
     }
 }
